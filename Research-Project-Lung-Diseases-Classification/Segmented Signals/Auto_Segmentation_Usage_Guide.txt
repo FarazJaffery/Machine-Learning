@@ -1,0 +1,55 @@
+
+====================================================================================================================================================================== 
+============================================================ "Auto-Segmentation Procedure:" ==========================================================================
+====================================================================================================================================================================== 
+
+
+ --> This code is designed to segment audio signals into smaller parts for analysis. It is part of the research project for classifying lung diseases
+ --> using audio signal processing.
+
+====================================================================================================================================================================== 
+====================================================================== "Consent:" ====================================================================================
+====================================================================================================================================================================== 
+
+
+ --> In the spirit of maintaining ethical standards and respecting the intellectual property rights of dataset creators, I have chosen not to share the actual 
+ --> data from the ICBHI 2017 dataset directly within this GitHub repository. The decision to refrain from distributing the data stems from a commitment to 
+ --> uphold the moral principles of academic integrity and professional conduct. However this Guidelines provides instructions for obtaining the data legally
+ --> and ethically, ensuring academic integrity and professional respect within the research community
+
+ --> By using this code, you agree not to share or distribute the segmented audio files without proper consent from the original dataset providers.
+
+
+====================================================================================================================================================================== 
+======================================================== "Guidelines for Using "Auto-Segmentation" ===================================================================
+====================================================================================================================================================================== 
+
+
+
+
+ --> Download the ICBHI 2017 dataset from the link (https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge)
+
+ --> Extract the Healthy, Bronchiolitis, and Bronchiectasis signals.
+
+ --> You will have now 64 audio signals in total. Segment these into four parts each to increase the dataset.
+
+ --> To segment the signlas carefully place the 64 audio files into the folder named "Put Your Audios Here" as follow names:
+
+  # Healthy class: 		 S(1).wav to S(35).wav
+  # Bronchiolitis class: 	S(36).wav to S(48).wav
+  # Bronchiectasis class: 	S(49).wav to S(64).wav
+
+  # The "S" is capital. 
+
+ --> Run the "Auto_Segmentation" script.
+
+ --> The segmented audio files will be generated and saved automatically in the "Segmented Signals" folder.
+
+ --> Do not move the augmented audio files to another folder.
+
+ --> Refer to the "Info_Augumented_Signals.txt" file for more information.
+
+
+====================================================================================================================================================================== 
+======================================================================= "THE END" ====================================================================================
+====================================================================================================================================================================== 

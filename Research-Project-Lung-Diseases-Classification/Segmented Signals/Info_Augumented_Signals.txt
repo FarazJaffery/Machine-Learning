@@ -1,0 +1,18 @@
+
+    				          	         The Details of the Generated Segmented Signals are below:
+
+							 _______________________________________________________
+
+							|  Segmented Class:		|  Signal Names:	|
+							|  Healthy  			|  S(1)   :  S(140)	|
+							|  Bronchiolitis    		|  S(141) :  S(192)   	|
+							|  Bronchiectasis   		|  S(193)  : S(256) 	|
+							 _______________________________________________________	
+
+							  You have noted that Each Class is incresed by 4 Times. 		
+
+
+
+
+
+

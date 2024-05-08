@@ -1,0 +1,11 @@
+ 
+
+    				       Please Follow the Below Signals Names for the 64 Signals that you will paste in this folder
+
+					 _______________________________________________________________________________________
+
+					|  Signal Class:		|  		Signal Names:				|
+					|  Healthy  			|  S(1) :  S(35), for 35 Healthy Signals		|
+					|  Bronchiolitis    		|  S(36) : S(48), for 13 Bronchiolitis Signals		|
+					|  Bronchiectasis   		|  S(49) : S(64), for 16 Bronchiectasis Signals 	|
+					 ________________________________________________________________________________________						
