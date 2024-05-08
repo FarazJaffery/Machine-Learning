@@ -1,0 +1,124 @@
+
+ --> Follow the below guideline for code file:
+
+====================================================================================================================================================================== 
+====================================================== "Preparing Audio Signals for Experimentation:" =================================================================
+====================================================================================================================================================================== 
+
+
+ --> In the spirit of maintaining ethical standards and respecting the intellectual property rights of dataset creators, I have chosen not to share the actual 
+ --> data from the ICBHI 2017 dataset directly within this GitHub repository. The decision to refrain from distributing the data stems from a commitment to 
+ --> uphold the moral principles of academic integrity and professional conduct. However below Guidelines provides instructions for obtaining the data legally
+ --> and ethically, ensuring academic integrity and professional respect within the research community.
+
+
+ -->  To ensure ethical use of data, please follow these steps before running the script "FINAL_CODE":
+
+ -->  1. Acquire the ICBHI 2017 dataset directly from the official source.
+
+ -->  2. Place the Healthy, Bronchiolitis and Bronchiectasis class in the "Put Your Audios Here" folder with proper naming convention.
+
+ -->  3. Segment the audio signals using the "Auto_Segmentation" script included in this repository.
+
+ -->  4. See the segmentation procedure outlined in the "Auto_Segmentation_Usage_Guide" accompanying the "Auto_Segmentation" script.
+
+ -->  5. By following these steps, you will get the segmented audio files necessary for the feature extraction and classification process detailed in this guide.
+
+ -->  6. Do not move the augmented audio files to another folder and follow the below steps.
+
+
+====================================================================================================================================================================== 
+=================================================================== "Run the Script:" ================================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Open MATLAB and navigate to the directory containing the “FINAL_CODE” script.
+
+ -->  Run the script to process the audio signals and extract features.
+
+
+====================================================================================================================================================================== 
+============================================================ "Export Features to Excel:" =============================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Once the script has finished running, export/copy the extracted features to an excel file from the variable namely 'NFeatures' in the MATLAB workspace.
+
+
+====================================================================================================================================================================== 
+==================================================== "Label the data in the Excel file as follows:" ==================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Once the extracted feature, has exported/copied in an excel file label the first row with the names [ MFCC 2 : MFCC 14 ] for each column and then 
+ -->  the final column with 'class' or 'label'.
+
+ -->  Also enter the below class name label at the end of the each row.
+
+ -->  Healthy: 		Rows 2-141
+
+ -->  Bronchiolitis: 	Rows 142-193
+
+ -->  Bronchiectasis: 	Rows 194-257
+
+ -->  If you find it difficult you can also see "All-Selected-Features" or "Final-Selected-Features" file for your reference.
+
+
+====================================================================================================================================================================== 
+==================================================== Load Features into Classification Learner App:" ================================================================= 
+====================================================================================================================================================================== 
+
+
+ -->  Open the Classification Learner app in MATLAB.
+
+ -->  Import the Excel file with the extracted features.
+
+
+====================================================================================================================================================================== 
+================================================================= "Select Features:" =================================================================================
+====================================================================================================================================================================== 
+
+
+In the app, select the following features for classification:
+
+ -->  MFCC 2
+
+ -->  MFCC 3
+
+ -->  MFCC 4
+
+ -->  MFCC 6
+
+ -->  MFCC 7
+
+ -->  MFCC 9
+
+ -->  MFCC 10
+
+ -->  MFCC 11
+
+
+====================================================================================================================================================================== 
+============================================================= "Configure Cross-Validation:" ==========================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Set the cross-validation method to ten-fold cross-validation within the app.
+
+ -->  (The ten-fold cross-validations have been used to make sure that random factors don't enter into the equation.)
+
+
+====================================================================================================================================================================== 
+============================================================= "Train and Evaluate the Model:" ========================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Choose the FINE KNN model from the list of classifiers.
+
+ -->  Train the model and evaluate its performance using the confusion matrix and accuracy metrics.
+
+
+====================================================================================================================================================================== 
+======================================================================= "THE END" ====================================================================================
+====================================================================================================================================================================== 
+
