@@ -33,13 +33,12 @@
 
  --> You will have now 64 audio signals in total. Segment these into four parts each to increase the dataset.
 
- --> To segment the signlas carefully place the 64 audio files into the folder named "Put Your Audios Here" as follow names:
+ --> To segment the signals, carefully place the 64 audio files into the folder named "Put Your Audios Here" with following names:
 
   # Healthy class: 		 S(1).wav to S(35).wav
   # Bronchiolitis class: 	S(36).wav to S(48).wav
   # Bronchiectasis class: 	S(49).wav to S(64).wav
 
-  # The "S" is capital. 
 
  --> Run the "Auto_Segmentation" script.
 
