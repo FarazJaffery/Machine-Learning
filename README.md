@@ -12,6 +12,24 @@ The methodology involves preprocessing lung sound signals using Discrete Wavelet
 ## **Setup and Running the Code:**
 ### **To run the code, follow these steps:**
 
+1.  Clone the repository to your local machine.
+2. Open MATLAB and navigate to the cloned repository folder.
+3.  Also Download the ICBHI 2017 dataset from [here](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge).
+4.  Place the Healthy, Bronchiolitis, and Bronchiectasis signals by following the "Auto_Segmentation_Usage_Guide".
+5.  Run the "Auto_Segmentation" script to augment the audio signals.
+6.  Do not move the augmented audio files to another folder.
+7.  Run the "Final_Code" script to process the audio signals and extract features.
+8. Export/Copy the extracted features to an Excel file.
+9. Label the feature by following the "Final_Code_Usage_Guide"
+10. Import Selected features into the Classification Learner app in MATLAB.
+11. Set the cross-validation method to ten-fold cross-validation within the app.
+12. Choose the FINE KNN model from the list of classifiers.
+13. Train the model and evaluate its performance using the confusion matrix and accuracy metrics.
+
+
+## **Setup and Running the myTrainedModel:**
+### **To run the given trained model, follow these steps:**
+
 1. Clone the repository to your local machine.
 2. Open MATLAB and navigate to the cloned repository folder.
 3. Load the trained model using the command: load('myTrainedModel.mat');
