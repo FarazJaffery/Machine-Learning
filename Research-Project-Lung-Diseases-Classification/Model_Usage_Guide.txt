@@ -1,0 +1,10 @@
+ -->  To use the trained model, load it in MATLAB with the following command:
+
+ -->  load('myTrainedModel.mat');
+
+
+ -->  Assuming 'newData' is a matrix with the same features as the training data
+ -->  Replace 'newData' with your actual new data variable in the following command
+ -->  Make predictions using the loaded model
+
+ -->  newPredictions = trainedModel.predictFcn(newData);
