@@ -1,0 +1,54 @@
+
+Follow the below guideline for code file:
+
+====================================================================================================================================================================== 
+=================================================================== "Run the Script:" ================================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Open MATLAB and navigate to the directory containing the “Auto_Fig_Generatoin” script.
+
+ -->  Run the script and observe the auto generated figures.
+
+ -->  You can also pick the different signal for your own analysis.
+
+ -->  You can also comment the code lines "exportgraphics" in full code and exports the image manually. (Recomended)!
+
+
+====================================================================================================================================================================== 
+============================================================ "Details of the generated figures:" ======================================================================
+====================================================================================================================================================================== 
+
+
+ -->  Below are the detail of each generated figure:
+
+ -->  1.tif:	Time domain representation of the "Healthy" class signal before it is preprocessed.
+
+ -->  2.tif:	Time domain representation of the "Healthy" class signal after it is preprocessed.
+
+ -->  3.tif:	Frequency domain representation of the "Healthy" class signal before it is preprocessed.
+
+ -->  4.tif:	Frequency domain representation of the "Healthy" class signal after it is preprocessed.
+
+ -->  5.tif:	Time domain representation of the "Bronchiolitis" class signal before it is preprocessed.
+
+ -->  6.tif:	Time domain representation of the "Bronchiolitis" class signal after it is preprocessed.
+
+ -->  7.tif:	Frequency domain representation of the "Bronchiolitis" class signal before it is preprocessed.
+
+ -->  8.tif:	Frequency domain representation of the "Bronchiolitis" class signal after it is preprocessed.
+
+ -->  9.tif:	Time domain representation of the "Bronchiectasis" class signal before it is preprocessed.
+
+ -->  10.tif:	Time domain representation of the "Bronchiectasis" class signal after it is preprocessed.
+
+ -->  11.tif:	Frequency domain representation of the "Bronchiectasis" class signal before it is preprocessed.
+
+ -->  12.tif:	Frequency domain representation of the "Bronchiectasis" class signal after it is preprocessed.
+
+
+
+====================================================================================================================================================================== 
+======================================================================= "THE END" ====================================================================================
+====================================================================================================================================================================== 
+
