@@ -1,7 +1,7 @@
 #  **Machine Learning: Lung Diseases Classification Research Project**
 ## **Project Title:**
 
-### [An Automated System for the Classification of Bronchiolitis and Bronchiectasis Diseases using Lung Sound Analysis](https://ieeexplore.ieee.org/author/37089800514)
+### [An Automated System for the Classification of Bronchiolitis and Bronchiectasis Diseases using Lung Sound Analysis](https://ieeexplore.ieee.org/document/10089608)
 
 ## **Purpose of the Project:**
 This repository contains the code and resources for a machine-learning project aimed at classifying lung diseases using audio signal analysis. The project focuses on developing a classification model to identify bronchiolitis and bronchiectasis from lung sounds.
@@ -46,4 +46,4 @@ The methodology involves preprocessing lung sound signals using Discrete Wavelet
 The ICBHI 2017 dataset was used for this study. Click [here](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge) for the dataset.
 
 ## **Citation:**
-Please cite [here](https://ieeexplore.ieee.org/author/37089800514) if you use this code or the trained model for your research.
+Please cite [here](https://ieeexplore.ieee.org/document/10089608) if you use this code or the trained model for your research.
