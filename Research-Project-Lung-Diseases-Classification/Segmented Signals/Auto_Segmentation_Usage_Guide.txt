@@ -25,30 +25,32 @@
 ====================================================================================================================================================================== 
 
 
+ --> Download the ICBHI 2017 dataset from this link: https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge
+
+ --> Extract the signals corresponding to Healthy, Bronchiolitis, and Bronchiectasis class, using the guidelines provided in the link below:
+
+ --> https://bhichallenge.med.auth.gr/sites/default/files/files/final_database/ICBHI_Challenge_diagnosis.txt
+
+ --> You will now have a total of 64 audio signals and you need to segment these audios into four parts to increase the dataset.
+
+ --> To segment these audio signals accurately, please carefully copy the 64 extracted audios into the folder namely "Put Your Audios Here" 
+ --> by following the below naming convention:
+
+  # Healthy class: 	   Files should be named from S(1).wav to S(35).wav
+  # Bronchiolitis class:   Files should be named from S(36).wav to S(48).wav
+  # Bronchiectasis class:  Files should be named from S(49).wav to S(64).wav
 
 
- --> Download the ICBHI 2017 dataset from the link (https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge)
+ --> Now run the "Auto_Segmentation" script.
 
- --> Extract the Healthy, Bronchiolitis, and Bronchiectasis signals.
+ --> The segmented audio files for above 64 signals will be generated and saved automatically in the "Segmented Signals" folder.
 
- --> You will have now 64 audio signals in total. Segment these into four parts each to increase the dataset.
+ --> Please do not move any audio or any code file to another folder!!!
 
- --> To segment the signals, carefully place the 64 audio files into the folder named "Put Your Audios Here" with following names:
-
-  # Healthy class: 		 S(1).wav to S(35).wav
-  # Bronchiolitis class: 	S(36).wav to S(48).wav
-  # Bronchiectasis class: 	S(49).wav to S(64).wav
-
-
- --> Run the "Auto_Segmentation" script.
-
- --> The segmented audio files will be generated and saved automatically in the "Segmented Signals" folder.
-
- --> Do not move the augmented audio files to another folder.
-
- --> Once you successfully augment the each audio signal then go to the "Info_Augumented_Signals.txt" file for more information.
+ --> Once you successfully augment the 64 signals, then go to the "Info_Augumented_Signals.txt" file for more information about newly generated segmented audios.
 
 
 ====================================================================================================================================================================== 
 ======================================================================= "THE END" ====================================================================================
 ====================================================================================================================================================================== 
+
