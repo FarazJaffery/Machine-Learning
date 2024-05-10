@@ -46,7 +46,7 @@
 
  --> Do not move the augmented audio files to another folder.
 
- --> Refer to the "Info_Augumented_Signals.txt" file for more information.
+ --> Once you successfully augment the each audio signal then go to the "Info_Augumented_Signals.txt" file for more information.
 
 
 ====================================================================================================================================================================== 
