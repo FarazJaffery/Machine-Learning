@@ -12,7 +12,7 @@ Features = [];
 for i = 1:numfiles
     
     % Generate the filename for the current iteration
-    filename = sprintf('Segmented Signal/s(%d).wav', i);
+    filename = sprintf('Segmented Signals/s(%d).wav', i);
     
     % Read the audio file
     [x, fs] = audioread(filename);
